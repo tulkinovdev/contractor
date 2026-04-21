@@ -1,32 +1,36 @@
+import { lazy, Suspense } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import MarqueeTicker from './components/MarqueeTicker';
-import About from './components/About';
-import Services from './components/Services';
-import CTA from './components/CTA';
-import Quality from './components/Quality';
-import Portfolio from './components/Portfolio';
-import Testimonials from './components/Testimonials';
-import Blog from './components/Blog';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
+
+const About = lazy(() => import('./components/About'));
+const Services = lazy(() => import('./components/Services'));
+const CTA = lazy(() => import('./components/CTA'));
+const Quality = lazy(() => import('./components/Quality'));
+const Portfolio = lazy(() => import('./components/Portfolio'));
+const Testimonials = lazy(() => import('./components/Testimonials'));
+const Blog = lazy(() => import('./components/Blog'));
+const Contact = lazy(() => import('./components/Contact'));
+const Footer = lazy(() => import('./components/Footer'));
 
 export default function App() {
   return (
-    <div className="bg-[#0a0a0a] min-h-screen">
+    <div id="main" className="bg-[#0a0a0a] min-h-screen">
       <Navbar />
       <Hero />
       <MarqueeTicker />
-      <About />
-      <Services />
-      <CTA />
-      <Quality />
-      <Portfolio />
-      <Testimonials />
-      <Blog />
-      <Contact />
-      <Footer />
+      <Suspense fallback={<div className="py-28"></div>}>
+        <About />
+        <Services />
+        <CTA />
+        <Quality />
+        <Portfolio />
+        <Testimonials />
+        <Blog />
+        <Contact />
+        <Footer />
+      </Suspense>
       <ScrollToTop />
     </div>
   );

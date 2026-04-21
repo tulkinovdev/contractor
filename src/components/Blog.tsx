@@ -98,8 +98,7 @@ export default function Blog() {
                 <img
                   src={post.image}
                   alt={post.title}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                />
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"                  loading="lazy"                />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
                 <div className="absolute top-3 left-3 bg-[#ff6b35] text-white text-[9px] font-bold tracking-wider uppercase px-2.5 py-1.5 rounded-full flex items-center gap-1">
                   <Tag size={8} />

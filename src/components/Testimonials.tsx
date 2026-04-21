@@ -114,6 +114,7 @@ export default function Testimonials() {
                         src={testimonials[current].image}
                         alt={testimonials[current].name}
                         className="w-full h-full object-cover"
+                        loading="lazy"
                       />
                     </div>
                     <div>

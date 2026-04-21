@@ -55,6 +55,7 @@ export default function About() {
                   src="/images/about-img.jpg"
                   alt="Professional contractor"
                   className="w-full h-full object-cover"
+                  loading="lazy"
                   whileHover={{ scale: 1.04 }}
                   transition={{ duration: 0.6 }}
                 />
