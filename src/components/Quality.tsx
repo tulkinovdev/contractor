@@ -45,7 +45,7 @@ export default function Quality() {
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, delay: 0.25 }}
-              className="text-white/50 text-base leading-relaxed mb-10"
+              className="text-white/60 text-base leading-relaxed mb-10"
             >
               We combine decades of hands-on experience with innovative methodologies to deliver construction projects that exceed expectations. Our commitment to quality is unwavering.
             </motion.p>
@@ -111,7 +111,7 @@ export default function Quality() {
 
             <div className="overflow-hidden rounded-sm aspect-square">
               <motion.img
-                src="/images/quality-img.jpg"
+                src="/images/quality-img.webp"
                 alt="Quality construction"
                 className="w-full h-full object-cover"
                 loading="lazy"

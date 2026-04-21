@@ -12,7 +12,7 @@ const projects = [
     location: 'Los Angeles, CA',
     category: 'Commercial',
     year: '2024',
-    image: '/images/project1.jpg',
+    image: '/images/project1.webp',
     area: '45,000 sq ft',
   },
   {
@@ -21,7 +21,7 @@ const projects = [
     location: 'New York, NY',
     category: 'Interior',
     year: '2024',
-    image: '/images/project2.jpg',
+    image: '/images/project2.webp',
     area: '3,200 sq ft',
   },
   {
@@ -30,7 +30,7 @@ const projects = [
     location: 'Chicago, IL',
     category: 'Commercial',
     year: '2023',
-    image: '/images/project3.jpg',
+    image: '/images/project3.webp',
     area: '82,000 sq ft',
   },
   {
@@ -39,7 +39,7 @@ const projects = [
     location: 'Houston, TX',
     category: 'Industrial',
     year: '2023',
-    image: '/images/cta-bg.jpg',
+    image: '/images/cta-bg.webp',
     area: '120,000 sq ft',
   },
   {
@@ -48,7 +48,7 @@ const projects = [
     location: 'Miami, FL',
     category: 'Residential',
     year: '2024',
-    image: '/images/quality-img.jpg',
+    image: '/images/quality-img.webp',
     area: '8,500 sq ft',
   },
   {
@@ -57,7 +57,7 @@ const projects = [
     location: 'Seattle, WA',
     category: 'Commercial',
     year: '2023',
-    image: '/images/about-img.jpg',
+    image: '/images/about-img.webp',
     area: '260,000 sq ft',
   },
 ];

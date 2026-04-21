@@ -8,7 +8,7 @@ const testimonials = [
     id: 1,
     name: 'Michael Rodriguez',
     role: 'CEO, Rodriguez Properties',
-    image: '/images/team1.jpg',
+    image: '/images/team1.webp',
     rating: 5,
     text: 'BuildCraft Pro delivered our commercial complex 2 weeks ahead of schedule without compromising a single element of quality. Their team is a true partner in every sense of the word. Outstanding communication throughout the entire project.',
     project: 'Skyline Tower Complex',
@@ -17,7 +17,7 @@ const testimonials = [
     id: 2,
     name: 'Sarah Chen',
     role: 'Director, Urban Development Co.',
-    image: '/images/team2.jpg',
+    image: '/images/team2.webp',
     rating: 5,
     text: 'The attention to detail and commitment to excellence that BuildCraft Pro brings to every project is unmatched. They transformed our vision into reality and exceeded every expectation we had. Truly exceptional team.',
     project: 'Urban Loft Renovation',
@@ -26,7 +26,7 @@ const testimonials = [
     id: 3,
     name: 'David Thompson',
     role: 'VP Construction, TechCorp',
-    image: '/images/team1.jpg',
+    image: '/images/team1.webp',
     rating: 5,
     text: 'We have worked with many contractors over the years, but BuildCraft Pro stands head and shoulders above the rest. Their professionalism, expertise, and dedication to delivering on promises sets them apart.',
     project: 'Tech Campus Phase II',
@@ -137,6 +137,7 @@ export default function Testimonials() {
             <button
               onClick={prev}
               className="w-10 h-10 rounded-sm border border-white/15 hover:border-[#ff6b35]/50 hover:bg-[#ff6b35]/10 flex items-center justify-center text-white/50 hover:text-white transition-all duration-300"
+              aria-label="Previous testimonial"
             >
               <ChevronLeft size={18} />
             </button>
@@ -157,6 +158,7 @@ export default function Testimonials() {
             <button
               onClick={next}
               className="w-10 h-10 rounded-sm border border-white/15 hover:border-[#ff6b35]/50 hover:bg-[#ff6b35]/10 flex items-center justify-center text-white/50 hover:text-white transition-all duration-300"
+              aria-label="Next testimonial"
             >
               <ChevronRight size={18} />
             </button>

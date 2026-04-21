@@ -112,6 +112,7 @@ export default function Navbar() {
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
             className="lg:hidden w-10 h-10 flex items-center justify-center text-white rounded-sm bg-white/5 hover:bg-[#ff6b35]/20 transition-colors"
+            aria-label={mobileOpen ? "Close menu" : "Open menu"}
           >
             {mobileOpen ? <X size={20} /> : <Menu size={20} />}
           </button>

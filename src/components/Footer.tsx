@@ -74,10 +74,10 @@ export default function Footer() {
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, delay: 0.1 + colIdx * 0.1 }}
             >
-              <h4 className="font-barlow font-bold text-sm text-white tracking-widest uppercase mb-5 flex items-center gap-2">
+              <h3 className="font-barlow font-bold text-sm text-white tracking-widest uppercase mb-5 flex items-center gap-2">
                 <div className="w-4 h-px bg-[#ff6b35]" />
                 {section}
-              </h4>
+              </h3>
               <ul className="space-y-2.5">
                 {links.map((link) => (
                   <li key={link}>
@@ -104,7 +104,7 @@ export default function Footer() {
         >
           <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
             <div>
-              <h4 className="font-barlow font-bold text-xl text-white mb-1">Stay Updated</h4>
+              <h3 className="font-barlow font-bold text-xl text-white mb-1">Stay Updated</h3>
               <p className="text-white/40 text-sm">Get the latest construction insights and project updates delivered to your inbox.</p>
             </div>
             <div className="flex gap-0 w-full lg:w-auto">

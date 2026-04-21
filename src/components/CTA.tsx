@@ -10,7 +10,7 @@ export default function CTA() {
       {/* Background */}
       <div className="absolute inset-0">
         <img
-          src="/images/cta-bg.jpg"
+          src="/images/cta-bg.webp"
           alt="Construction background"
           className="w-full h-full object-cover"
           loading="lazy"

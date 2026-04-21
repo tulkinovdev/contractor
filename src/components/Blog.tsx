@@ -10,7 +10,7 @@ const posts = [
     category: 'Interior Design',
     readTime: '5 min read',
     date: 'Dec 15, 2024',
-    image: '/images/news1.jpg',
+    image: '/images/news1.webp',
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const posts = [
     category: 'Trends',
     readTime: '4 min read',
     date: 'Dec 10, 2024',
-    image: '/images/project2.jpg',
+    image: '/images/project2.webp',
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const posts = [
     category: 'DIY Tips',
     readTime: '6 min read',
     date: 'Dec 5, 2024',
-    image: '/images/project3.jpg',
+    image: '/images/project3.webp',
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ const posts = [
     category: 'Flooring',
     readTime: '3 min read',
     date: 'Nov 28, 2024',
-    image: '/images/quality-img.jpg',
+    image: '/images/quality-img.webp',
   },
 ];
 

@@ -138,8 +138,8 @@ export default function Contact() {
                   />
                 </div>
                 <div>
-                  <label className="block text-white/40 text-[10px] font-semibold tracking-wider uppercase mb-2">Service Type</label>
-                  <select className="w-full bg-white/5 border border-white/10 rounded-sm px-4 py-3 text-white/60 text-sm focus:outline-none focus:border-[#ff6b35]/50 focus:bg-[#ff6b35]/5 transition-all duration-300 appearance-none">
+                  <label htmlFor="service-type" className="block text-white/40 text-[10px] font-semibold tracking-wider uppercase mb-2">Service Type</label>
+                  <select id="service-type" className="w-full bg-white/5 border border-white/10 rounded-sm px-4 py-3 text-white/60 text-sm focus:outline-none focus:border-[#ff6b35]/50 focus:bg-[#ff6b35]/5 transition-all duration-300 appearance-none">
                     <option value="" className="bg-[#111]">Select a service</option>
                     <option value="planning" className="bg-[#111]">Project Planning</option>
                     <option value="management" className="bg-[#111]">Project Management</option>

@@ -14,7 +14,7 @@ export default function Hero() {
       {/* Background */}
       <div className="absolute inset-0">
         <img
-          src="/images/hero-bg.jpg"
+          src="/images/hero-bg.webp"
           alt="Construction site"
           className="w-full h-full object-cover"
           width={1920}

@@ -52,7 +52,7 @@ export default function About() {
 
               <div className="overflow-hidden rounded-sm aspect-[4/5]">
                 <motion.img
-                  src="/images/about-img.jpg"
+                  src="/images/about-img.webp"
                   alt="Professional contractor"
                   className="w-full h-full object-cover"
                   loading="lazy"
