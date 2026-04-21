@@ -152,6 +152,8 @@ export default function Portfolio() {
                   alt={project.title}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                   loading="lazy"
+                  width={1200}
+                  height={900}
                 />
 
                 {/* Overlay */}

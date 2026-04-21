@@ -17,6 +17,9 @@ export default function Hero() {
           src="/images/hero-bg.jpg"
           alt="Construction site"
           className="w-full h-full object-cover"
+          width={1920}
+          height={1080}
+          loading="eager"
         />
         {/* Dark overlay with gradient */}
         <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/70 to-black/40" />

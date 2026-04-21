@@ -56,6 +56,8 @@ export default function About() {
                   alt="Professional contractor"
                   className="w-full h-full object-cover"
                   loading="lazy"
+                  width={800}
+                  height={1000}
                   whileHover={{ scale: 1.04 }}
                   transition={{ duration: 0.6 }}
                 />

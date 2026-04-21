@@ -16,7 +16,7 @@ const Footer = lazy(() => import('./components/Footer'));
 
 export default function App() {
   return (
-    <div id="main" className="bg-[#0a0a0a] min-h-screen">
+    <main id="main" className="bg-[#0a0a0a] min-h-screen">
       <Navbar />
       <Hero />
       <MarqueeTicker />
@@ -32,6 +32,6 @@ export default function App() {
         <Footer />
       </Suspense>
       <ScrollToTop />
-    </div>
+    </main>
   );
 }

@@ -114,6 +114,9 @@ export default function Quality() {
                 src="/images/quality-img.jpg"
                 alt="Quality construction"
                 className="w-full h-full object-cover"
+                loading="lazy"
+                width={800}
+                height={800}
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.7 }}
               />

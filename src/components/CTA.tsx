@@ -13,6 +13,9 @@ export default function CTA() {
           src="/images/cta-bg.jpg"
           alt="Construction background"
           className="w-full h-full object-cover"
+          loading="lazy"
+          width={1600}
+          height={900}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/70 to-black/85" />
         <div className="absolute inset-0 bg-[#ff6b35]/10" />
