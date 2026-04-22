@@ -49,6 +49,3 @@ git checkout legacy
 
 - This is the old version of the Contractor Landing Page.
 - New design will be available in the Main branch.
-
-- This is the old version of the Scroll Template.
-- New design will be available in the Master branch.
